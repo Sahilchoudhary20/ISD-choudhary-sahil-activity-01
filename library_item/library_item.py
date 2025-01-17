@@ -11,7 +11,7 @@ class LibraryItem:
     LibraryItem class: Used to maintain Library's data.
 
     """
-    def _init_(self, title: str, author: str, genre: Genre):
+    def __init__(self, title: str, author: str, genre: Genre):
         """
         To initialize the class attributes with attribute values.
 
