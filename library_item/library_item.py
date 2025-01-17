@@ -44,6 +44,30 @@ class LibraryItem:
         
         else:
             raise ValueError("Invalid Genre.")
+        
+    @property
+    def title(self):
+        """
+        Accessor for the title attribute.
+            
+        """
+        return self.__title
+        
+    @property
+    def author(self):
+        """
+        Accessor for author attribute.
+            
+        """
+        return self.__author
+        
+    @property
+    def genre(self):
+        """
+        Accessor for genre attribute.
+
+        """
+        return self.__genre
 
 
     
